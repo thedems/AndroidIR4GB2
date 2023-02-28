@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ir4Grp2</string>
+    <string name="bienvenue">Valider</string>
+    <string name="close">Fermer</string>
+    <string name="valider">Valider</string>
+    <string name="effacer">Effacer</string>
+    <string name="hintlogin">Saisissez un Login</string>
+    <string name="hintPWD">Saisissez un Password</string>
+</resources>
