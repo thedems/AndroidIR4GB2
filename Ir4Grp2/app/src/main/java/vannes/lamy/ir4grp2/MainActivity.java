@@ -14,19 +14,19 @@ EditText l,p;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //recuperation des widgets login et password
+        //get widgets  login and password
         l=findViewById(R.id.login);
         p=findViewById(R.id.pwd);
     }
-
-    public void clicBienvenue(View v){
-        Toast.makeText(MainActivity.this,"login: "+ l.getText() + "Pwd: "+p.getText(),
+    public void clicValidate(View v){
+        Toast.makeText(MainActivity.this,"login: "+
+                        l.getText() + "Pwd: "+p.getText(),
                 Toast.LENGTH_SHORT).show();
     }
-    public void clicFermer(View v){
+    public void clicClose(View v){
         finish();
     }
-    public void clicEffacer(View v){
+    public void clicClear(View v){
         l.setText("");
         p.setText("");
     }

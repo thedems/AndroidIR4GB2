@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Ir4Grp2</string>
-    <string name="bienvenue">Valider</string>
-    <string name="close">Fermer</string>
-    <string name="valider">Valider</string>
-    <string name="effacer">Effacer</string>
-    <string name="hintlogin">Saisissez un Login</string>
-    <string name="hintPWD">Saisissez un Password</string>
+    <string name="welcome">Validate</string>
+    <string name="close">Close</string>
+    <string name="validate">Validate</string>
+    <string name="clear">Clear</string>
+    <string name="hintlogin">Write a  Login</string>
+    <string name="hintPWD">Write a Password</string>
+    <string name="todo">TODO</string>
 </resources>
