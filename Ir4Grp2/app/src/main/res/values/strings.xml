@@ -7,4 +7,9 @@
     <string name="hintlogin">Write a  Login</string>
     <string name="hintPWD">Write a Password</string>
     <string name="todo">TODO</string>
+    <string name="alarme">Alarme</string>
+    <string name="esaip">ESAIP</string>
+    <string name="video">VIDEO</string>
+    <string name="email">EMAIL</string>
+
 </resources>
