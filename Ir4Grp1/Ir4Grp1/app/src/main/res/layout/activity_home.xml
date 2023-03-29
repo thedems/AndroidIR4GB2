@@ -61,10 +61,12 @@
                 android:layout_height="wrap_content"
                 android:onClick="action_callPhone"
                 android:text="@string/appel" />
+
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="action_video"
                 android:text="@string/video" />
 
 

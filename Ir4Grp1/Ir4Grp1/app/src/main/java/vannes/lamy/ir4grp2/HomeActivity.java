@@ -44,6 +44,8 @@ TextView w;
         startActivity(i);
     }
     public void action_video(View v){
+Intent i = new Intent(HomeActivity.this, VideoActivity.class);
+startActivity(i);
 
     }
     public void action_callPhone(View v){
