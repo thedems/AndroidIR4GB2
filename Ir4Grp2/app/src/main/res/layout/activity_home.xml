@@ -45,22 +45,51 @@
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="action_alarme"
                 android:text="@string/alarme" />
+
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="action_esaip"
                 android:text="@string/esaip" />
+
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/email" />
+                android:onClick="action_callPhone"
+                android:text="@string/appel" />
+
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="action_video"
                 android:text="@string/video" />
+            <Button
+                android:id="@+id/button9"
+                android:tag="dj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="action_games"
+                android:text="@string/dj" />
+            <Button
+                android:id="@+id/button10"
+                android:tag="fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="action_games"
+                android:text="@string/fb" />
+            <Button
+                android:id="@+id/button11"
+                android:tag="p4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="action_games"
+                android:text="@string/p4" />
+
 
 
         </LinearLayout>

@@ -20,16 +20,21 @@ EditText l,p;
         p=findViewById(R.id.pwd);
     }
     public void clicValidate(View v){
-        Toast.makeText(MainActivity.this,"login: "+
-                        l.getText() + "Pwd: "+p.getText(),
-                Toast.LENGTH_SHORT).show();
-        //declaration intent
-        Intent i=new Intent(MainActivity.this,HomeActivity.class);
-        //insertion message dans intent correpondant au login
-        i.putExtra("msg",l.getText());
-        //on lance l'activity HomeActivity
-        startActivity(i);
-
+        //authentification
+        if(getResources().getText(R.string.login).equals(l.getText().toString()) &&
+        getResources().getText(R.string.pwd).equals(p.getText().toString())) {
+            //declaration intent
+            Intent i = new Intent(MainActivity.this, HomeActivity.class);
+            //insertion message dans intent correpondant au login
+            i.putExtra("msg", l.getText().toString());
+            //on lance l'activity HomeActivity
+            startActivity(i);
+        }
+        else
+            Toast.makeText(MainActivity.this," Error Authentification : login: "+
+                            l.getText() + " Pwd: "+p.getText() ,
+                    Toast.LENGTH_SHORT).show();
+            this.clicClear(v);
     }
     public void clicClose(View v){
         finish();

@@ -11,5 +11,12 @@
     <string name="esaip">ESAIP</string>
     <string name="video">VIDEO</string>
     <string name="email">EMAIL</string>
+    <string name="appel">APPEL</string>
+    <string name="login">titi</string>
+    <string name="pwd">toto</string>
+    <string name="fb">Flappy Bird</string>
+    <string name="dj">Doodle Jump</string>
+    <string name="p4">Puissance 4</string>
+
 
 </resources>
