@@ -2,6 +2,7 @@ package vannes.lamy.ir4grp1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -18,8 +19,20 @@ EditText l,p;
          p=findViewById(R.id.pwd);
     }
     public void action_valider(View v){
-        Toast.makeText(this, "Bienvenue",
-                Toast.LENGTH_SHORT).show();
+        if(getResources().getString(R.string.login).equals(l.getText().toString()) &&
+        getResources().getString(R.string.pwd).equals(p.getText().toString())){
+            //declaration Intent
+            Intent i=new Intent(MainActivity.this,HomeActivity.class);
+            //insertion du login dans l'intent
+            i.putExtra("msg",l.getText().toString());
+            //lancement de la 2e activity
+            startActivity(i);
+        }
+        else {
+            Toast.makeText(this, "C'est quoi ce bordel! login ou pwd incorrect",
+                    Toast.LENGTH_SHORT).show();
+            action_effacer(v);
+        }
     }
     public void action_effacer(View v){
     l.setText("");
