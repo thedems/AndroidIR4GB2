@@ -5,4 +5,8 @@
     <string name="fermer">Fermer</string>
     <string name="login">toto</string>
     <string name="pwd">titi</string>
+    <string name="tel">Telephoner</string>
+    <string name="esaip">ESAIP</string>
+    <string name="alarme">Alarme</string>
+    <string name="video">Vidéo</string>
 </resources>
